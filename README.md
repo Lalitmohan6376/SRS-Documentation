@@ -45,7 +45,3 @@ More projects will be added soon...
 
 Lalit Mohan  
 B.Tech AI & ML Student  
-
----
-
-⭐ If you like this repo, give it a star!
