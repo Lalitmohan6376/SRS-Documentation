@@ -1,707 +1,516 @@
-Unit 2 — Requirements Engineering and System Analysis
-
-Introduction
-
-After understanding the basics of an SRS document in Unit 1, the next important step is Requirements Engineering and System Analysis.
-
-This phase is the backbone of every software product because this is where we decide:
-
-What problem are we solving?
-
-Who are the users?
-
-What features are needed?
-
-How will the system behave?
-
-What should the system avoid?
-
-
-If this phase becomes weak, the whole project can fail even if the coding is excellent.
-
+## Unit 2 — Requirements Engineering and System Analysis 📘🧠
 
 ---
 
-1. What is Requirement Engineering?
+## Introduction 🌟
+
+After understanding the basics of an SRS document in Unit 1, the next important step is Requirements Engineering and System Analysis 🔍💻.
+
+This phase is the backbone of every software product 🏗️ because this is where we decide:
+
+* ❓ What problem are we solving?
+* 👥 Who are the users?
+* ⚙️ What features are needed?
+* 🔄 How will the system behave?
+* 🚫 What should the system avoid?
+
+If this phase becomes weak ⚠️, the whole project can fail even if the coding is excellent 💀.
+
+---
+
+## 1. What is Requirement Engineering? 📑
 
 Requirement Engineering is the process of:
 
-collecting requirements
+* 📥 collecting requirements
+* 🔍 analyzing requirements
+* ✅ validating requirements
+* 📝 documenting requirements
+* 🛠️ managing requirements
 
-analyzing requirements
+### Simple meaning 💡:
 
-validating requirements
-
-documenting requirements
-
-managing requirements
-
-
-Simple meaning:
-
-> Understanding exactly what the user or business wants before coding starts.
-
-
-
+> Understanding exactly what the user or business wants before coding starts. 👨‍💻
 
 ---
 
-2. Why Requirement Engineering is Important
+## 2. Why Requirement Engineering is Important ⭐
 
 Without proper requirements:
 
-developers get confused
-
-wrong features are built
-
-budget increases
-
-project becomes slow
-
-users become unhappy
-
-system redesign becomes expensive
-
+* 😵 developers get confused
+* ❌ wrong features are built
+* 💰 budget increases
+* 🐢 project becomes slow
+* 😡 users become unhappy
+* 🔁 system redesign becomes expensive
 
 Good requirement engineering helps:
 
-better planning
-
-faster development
-
-fewer bugs
-
-easier testing
-
-easier scaling
-
-
+* 📊 better planning
+* ⚡ faster development
+* 🐞 fewer bugs
+* 🧪 easier testing
+* 📈 easier scaling
 
 ---
 
-3. Types of Requirements
+## 3. Types of Requirements 📌
 
 There are mainly two types:
 
-A. Functional Requirements
+---
+
+### A. Functional Requirements ⚙️
 
 Functional requirements define:
 
-> What the system should do.
-
-
+> What the system should do 🧩
 
 Examples:
 
-User can login
+* 🔐 User can login
+* 📄 User can upload resume
+* 🤖 AI gives interview feedback
+* 💳 User can purchase premium plan
+* 👨‍💼 Admin can manage users
 
-User can upload resume
-
-AI gives interview feedback
-
-User can purchase premium plan
-
-Admin can manage users
-
-
-These are features of the system.
-
+These are features of the system 🧱.
 
 ---
 
-B. Non-Functional Requirements
+### B. Non-Functional Requirements 🚀
 
 Non-functional requirements define:
 
-> How the system should behave.
-
-
+> How the system should behave ⚡
 
 Examples:
 
-System should support 10,000 users
+* 👥 System should support 10,000 users
+* ⏱️ Response time should be under 2 seconds
+* 🔒 Database should be secure
+* 📡 System uptime should be 99.9%
+* 📱 Application should work on mobile devices
 
-Response time should be under 2 seconds
-
-Database should be secure
-
-System uptime should be 99.9%
-
-Application should work on mobile devices
-
-
-These are quality attributes.
-
+These are quality attributes 🎯.
 
 ---
 
-4. Requirement Gathering Techniques
+## 4. Requirement Gathering Techniques 🧠
 
-A. Interviews
+---
 
-Direct discussion with users or clients.
+### A. Interviews 🎤
+
+Direct discussion with users or clients 👥.
 
 Purpose:
 
-understand real problems
-
-understand expectations
-
-collect detailed information
-
-
+* 🧩 understand real problems
+* 🎯 understand expectations
+* 📋 collect detailed information
 
 ---
 
-B. Surveys and Questionnaires
+### B. Surveys and Questionnaires 📊
 
-Used when many users are involved.
+Used when many users are involved 👨‍👩‍👧‍👦.
 
 Helps in:
 
-collecting opinions
-
-understanding common problems
-
-finding feature demand
-
-
+* 🗳️ collecting opinions
+* 📌 understanding common problems
+* 📈 finding feature demand
 
 ---
 
-C. Observation
+### C. Observation 👀
 
-Watching how users currently work.
+Watching how users currently work 🧍‍♂️🧍‍♀️.
 
 Helps identify:
 
-workflow problems
-
-inefficiencies
-
-user behavior
-
-
+* 🔄 workflow problems
+* ⏳ inefficiencies
+* 🧑‍💻 user behavior
 
 ---
 
-D. Brainstorming
+### D. Brainstorming 💡
 
-Team discussion to generate ideas.
+Team discussion to generate ideas 🤝.
 
 Useful for:
 
-startups
-
-product innovation
-
-feature planning
-
-
+* 🚀 startups
+* 💡 product innovation
+* 🧱 feature planning
 
 ---
 
-E. Competitor Analysis
+### E. Competitor Analysis 🔎
 
-Studying existing products.
+Studying existing products 📱.
 
 Examples:
 
-LinkedIn
-
-LeetCode
-
-InterviewBit
-
-Pramp
-
+* LinkedIn 💼
+* LeetCode 💻
+* InterviewBit 🧠
+* Pramp 🎯
 
 Purpose:
 
-understand market standards
-
-identify missing features
-
-improve user experience
-
-
+* 📊 understand market standards
+* 🔍 identify missing features
+* 🎨 improve user experience
 
 ---
 
-5. Requirement Analysis
+## 5. Requirement Analysis 📉
 
 After gathering requirements:
 
 We analyze:
 
-feasibility
+* 📌 feasibility
+* ⭐ importance
+* ⚔️ conflicts
+* 🔗 dependencies
+* ⚙️ technical limitations
 
-importance
+Questions asked:
 
-conflicts
-
-dependencies
-
-technical limitations
-
-
-Questions asked during analysis:
-
-Is this feature useful?
-
-Is it technically possible?
-
-How much time will it take?
-
-Will it increase cost?
-
-Will users actually use it?
-
-
+* ❓ Is this feature useful?
+* ⚙️ Is it technically possible?
+* ⏳ How much time will it take?
+* 💰 Will it increase cost?
+* 👤 Will users actually use it?
 
 ---
 
-6. Feasibility Study
+## 6. Feasibility Study 🧪
 
 Feasibility means:
 
-> Can the project realistically be built?
-
-
-
+> Can the project realistically be built? 🏗️
 
 ---
 
-Types of Feasibility
+## Types of Feasibility 📚
 
-A. Technical Feasibility
+---
 
-Checks whether technology exists to build the system.
+### A. Technical Feasibility 🖥️
+
+Checks whether technology exists to build the system ⚙️.
 
 Example:
 
-Can AI interview analysis be implemented?
-
-Can voice processing be handled?
-
-
+* 🤖 Can AI interview analysis be implemented?
+* 🎙️ Can voice processing be handled?
 
 ---
 
-B. Economic Feasibility
+### B. Economic Feasibility 💰
 
-Checks whether project cost is reasonable.
+Checks whether project cost is reasonable 💵.
 
 Includes:
 
-cloud cost
-
-development cost
-
-maintenance cost
-
-
+* ☁️ cloud cost
+* 👨‍💻 development cost
+* 🔧 maintenance cost
 
 ---
 
-C. Operational Feasibility
+### C. Operational Feasibility 🧑‍💼
 
-Checks whether users will actually use the system.
+Checks whether users will actually use the system 👥.
 
 Example:
 
-Is the UI simple?
-
-Is the system useful for students?
-
-
+* 🎯 Is the UI simple?
+* 📱 Is the system useful for students?
 
 ---
 
-D. Schedule Feasibility
+### D. Schedule Feasibility ⏰
 
-Checks whether the project can be completed on time.
-
+Checks whether the project can be completed on time 📆.
 
 ---
 
-7. Stakeholders
+## 7. Stakeholders 👥
 
-Stakeholders are people connected with the project.
+Stakeholders are people connected with the project 🤝.
 
 Examples:
 
-users
-
-developers
-
-startup founders
-
-testers
-
-investors
-
-administrators
-
-
+* 🧑‍🎓 users
+* 👨‍💻 developers
+* 🚀 startup founders
+* 🧪 testers
+* 💼 investors
+* 🛡️ administrators
 
 ---
 
-8. User Personas
+## 8. User Personas 🧑‍🎓
 
 User persona means:
 
-> A fictional representation of target users.
-
-
+> A fictional representation of target users 🎭
 
 Example:
 
-Persona Example
+### Persona Example 👤
 
-Name: Rahul Age: 21 Goal: Crack software internship Problem: Weak communication and interview confidence
+* 🧑 Name: Rahul
+* 🎂 Age: 21
+* 🎯 Goal: Crack software internship
+* ⚠️ Problem: Weak communication and interview confidence
 
-This helps build user-focused products.
-
+This helps build user-focused products 💡.
 
 ---
 
-9. Use Cases
+## 9. Use Cases 🔄
 
 Use cases describe:
 
-> How users interact with the system.
-
-
-
+> How users interact with the system 🖥️
 
 ---
 
-Example Use Case
+### Example Use Case 📌
 
-Use Case: User Login
+**Use Case: User Login 🔐**
 
 Actor:
 
-Student
-
+* 🧑 Student
 
 Flow:
 
-1. User enters email and password
-
-
-2. System validates credentials
-
-
-3. User enters dashboard
-
-
+1. ✍️ User enters email and password
+2. 🔍 System validates credentials
+3. 📊 User enters dashboard
 
 Alternative Flow:
 
-Invalid password shows error
-
-
+* ❌ Invalid password shows error
 
 ---
 
-10. User Stories
+## 10. User Stories 📝
 
-User stories are written from the user perspective.
+User stories are written from the user perspective 👤.
 
 Format:
 
-> As a [user], I want [feature] so that [benefit].
-
-
+> As a [user], I want [feature] so that [benefit]. 🎯
 
 Examples:
 
-As a student, I want AI interview feedback so that I can improve.
-
-As a recruiter, I want candidate reports so that evaluation becomes easier.
-
-
+* 🎓 As a student, I want AI interview feedback so that I can improve.
+* 🧑‍💼 As a recruiter, I want candidate reports so that evaluation becomes easier.
 
 ---
 
-11. Requirement Prioritization
+## 11. Requirement Prioritization 📊
 
-Not every feature should be built first.
+Not every feature should be built first ⚠️.
 
 Priority levels:
 
-High Priority
+### 🔴 High Priority
 
 Core features:
 
-login
+* 🔐 login
+* 🤖 interview system
+* 📄 resume upload
 
-interview system
+### 🟡 Medium Priority
 
-resume upload
+* 📊 analytics
+* 📈 dashboards
+* 🔔 notifications
 
+### 🟢 Low Priority
 
-Medium Priority
-
-analytics
-
-dashboards
-
-notifications
-
-
-Low Priority
-
-dark mode
-
-profile themes
-
-badges
-
-
+* 🌙 dark mode
+* 🎨 profile themes
+* 🏅 badges
 
 ---
 
-12. Requirement Validation
+## 12. Requirement Validation ✅
 
 Validation checks:
 
-> Are requirements correct and complete?
-
-
+> Are requirements correct and complete? 🧠
 
 Questions:
 
-Is requirement understandable?
-
-Is requirement realistic?
-
-Is requirement testable?
-
-Is requirement necessary?
-
-
+* ❓ Is requirement understandable?
+* ⚙️ Is requirement realistic?
+* 🧪 Is requirement testable?
+* 📌 Is requirement necessary?
 
 ---
 
-13. Requirement Documentation
+## 13. Requirement Documentation 📄
 
 All finalized requirements are documented inside:
 
-SRS document
+* 📘 SRS document
+* 🔄 use case diagrams
+* 📊 flowcharts
+* 🧩 system models
 
-use case diagrams
-
-flowcharts
-
-system models
-
-
-This becomes the reference for developers.
-
+This becomes the reference for developers 🧑‍💻.
 
 ---
 
-14. Common Mistakes in Requirement Engineering
+## 14. Common Mistakes in Requirement Engineering ⚠️
 
-Mistake 1
-
-Starting coding without proper planning.
-
-Mistake 2
-
-Adding too many unnecessary features.
-
-Mistake 3
-
-Ignoring scalability.
-
-Mistake 4
-
-Ignoring real user problems.
-
-Mistake 5
-
-Not validating requirements.
-
+* ❌ Starting coding without proper planning
+* 📦 Adding too many unnecessary features
+* 🚫 Ignoring scalability
+* ❌ Ignoring real user problems
+* 🧪 Not validating requirements
 
 ---
 
-15. Real Startup Example
+## 15. Real Startup Example 🚀
 
 Suppose we build:
 
-> AI Mock Interview Platform
-
-
-
+> 🤖 AI Mock Interview Platform
 
 ---
 
-Functional Requirements
+### Functional Requirements ⚙️
 
-User signup/login
-
-AI interview chatbot
-
-Resume analysis
-
-Communication feedback
-
-Dashboard
-
-Subscription system
-
-
+* 🔐 User signup/login
+* 🤖 AI interview chatbot
+* 📄 Resume analysis
+* 🧠 Communication feedback
+* 📊 Dashboard
+* 💳 Subscription system
 
 ---
 
-Non-Functional Requirements
+### Non-Functional Requirements 🚀
 
-Supports 50,000 users
-
-Fast API responses
-
-Secure authentication
-
-Cloud scalability
-
-Mobile responsive UI
-
-
+* 👥 Supports 50,000 users
+* ⚡ Fast API responses
+* 🔒 Secure authentication
+* ☁️ Cloud scalability
+* 📱 Mobile responsive UI
 
 ---
 
-Stakeholders
+### Stakeholders 👥
 
-students
-
-job seekers
-
-admins
-
-company owners
-
-
+* 🎓 students
+* 🧑‍💼 job seekers
+* 🛡️ admins
+* 🏢 company owners
 
 ---
 
-Feasibility
+### Feasibility 🧪
 
-Technical
+#### Technical 🖥️
 
 Possible using:
 
-FastAPI
+* FastAPI ⚙️
+* React ⚛️
+* PostgreSQL 🗄️
+* AI APIs 🤖
 
-React
+#### Economic 💰
 
-PostgreSQL
+Low initial cloud cost ☁️.
 
-AI APIs
+#### Operational 🧑‍💼
 
-
-Economic
-
-Low initial cloud cost.
-
-Operational
-
-Students need interview preparation.
-
+Students need interview preparation 🎯.
 
 ---
 
-16. Difference Between Requirement Engineering and System Design
+## 16. Difference Between Requirement Engineering and System Design ⚖️
 
-Requirement Engineering
+### Requirement Engineering 📘
 
 Focuses on:
 
-what to build
-
-why to build
-
-
+* ❓ what to build
+* 🎯 why to build
 
 ---
 
-System Design
+### System Design 🏗️
 
 Focuses on:
 
-how to build
-
-architecture
-
-scalability
-
-databases
-
-APIs
-
-
+* ⚙️ how to build
+* 🧱 architecture
+* 📈 scalability
+* 🗄️ databases
+* 🔌 APIs
 
 ---
 
-17. Important Tools Used in Industry
-
-Documentation Tools
-
-Notion
-
-Confluence
-
-Google Docs
-
-
-Diagram Tools
-
-Draw.io
-
-Figma
-
-Lucidchart
-
-
-Project Management
-
-Jira
-
-Trello
-
-
+## 17. Important Tools Used in Industry 🛠️
 
 ---
 
-18. Summary
+### Documentation Tools 📄
 
-Requirement Engineering is one of the most important phases in software development.
+* Notion 🧠
+* Confluence 📘
+* Google Docs 🌐
+
+---
+
+### Diagram Tools 📊
+
+* Draw.io 🧩
+* Figma 🎨
+* Lucidchart 📈
+
+---
+
+### Project Management 📋
+
+* Jira 🧑‍💻
+* Trello 🗂️
+
+---
+
+## 18. Summary 📌✨
+
+Requirement Engineering is one of the most important phases in software development 🧠💻.
 
 This phase helps:
 
-understand users
-
-define features
-
-reduce project failure
-
-improve product quality
-
-create scalable systems
-
+* 👥 understand users
+* 📋 define features
+* ❌ reduce project failure
+* 🚀 improve product quality
+* 🧱 create scalable systems
 
 Before coding starts, every serious product should have:
 
-clear requirements
+* 📌 clear requirements
+* 🧪 feasibility analysis
+* 👤 user understanding
+* 📄 proper documentation
 
-feasibility analysis
-
-user understanding
-
-proper documentation
-
-
-This creates the foundation for system design and implementation.
+This creates the foundation for system design and implementation 🏗️💡.
